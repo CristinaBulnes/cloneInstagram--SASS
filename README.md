@@ -49,7 +49,7 @@ To develop the project you must take into account the following guidelines:
     ●	Footer
         ○	Here there will be a login form identical to instagram.
     The structure of this page will be as follows:
-    [Login page structure](/cloneInstagram--SASS/LoginStructurePage.png)
+    [Login page structure](/assets/img/LoginStructurePage.png)
 
 2. The home page will be made up of the following sections
     ●	Navbar must contain:
@@ -118,8 +118,8 @@ sass/
 `– main.scss              // Main Sass file
 
 ## ⚓ Wireframe ⚓
-    [Login page](/cloneInstagram--SASS/LoginWireframe.png)
-    [Home page](/cloneInstagram--SASS/HomeWireframe.png)
+    [Login page](/assets/img/LoginWireframe.png)
+    [Home page](/assets/img/HomeWireframe.png)
 
 ## ⚙️ Requirements ⚙️
 
