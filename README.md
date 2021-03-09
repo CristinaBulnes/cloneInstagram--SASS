@@ -71,9 +71,51 @@ To develop the project you must take into account the following guidelines:
             ■	Name of who commented
             ■	The comment
         ○	Publication datej
-
-
 <br></br>
+
+### ⚙️ Project architecture ⚙️
+It has been used the architecture known as the 7–1 pattern. It is a widely-adopted structure that serves as a basis for large projects. It consists in have all your partials organised into 7 different folders, and a single file sits at the root level (usually named main.scss) to handle the imports — which is the file you compile into CSS.
+
+For example: 
+
+sass/
+|
+|– abstracts/ (or utilities/)
+|   |– _variables.scss    // Sass Variables
+|   |– _functions.scss    // Sass Functions
+|   |– _mixins.scss       // Sass Mixins
+|
+|– base/
+|   |– _reset.scss        // Reset/normalize
+|   |– _typography.scss   // Typography rules
+|
+|– components/ (or modules/)
+|   |– _buttons.scss      // Buttons
+|   |– _carousel.scss     // Carousel
+|   |– _slider.scss       // Slider
+|
+|– layout/
+|   |– _navigation.scss   // Navigation
+|   |– _grid.scss         // Grid system
+|   |– _header.scss       // Header
+|   |– _footer.scss       // Footer
+|   |– _sidebar.scss      // Sidebar
+|   |– _forms.scss        // Forms
+|
+|– pages/
+|   |– _home.scss         // Home specific styles
+|   |– _about.scss        // About specific styles
+|   |– _contact.scss      // Contact specific styles
+|
+|– themes/
+|   |– _theme.scss        // Default theme
+|   |– _admin.scss        // Admin theme
+|
+|– vendors/
+|   |– _bootstrap.scss    // Bootstrap
+|   |– _jquery-ui.scss    // jQuery UI
+|
+`– main.scss              // Main Sass file
 
 ## ⚓ Wireframe ⚓
     [Login page](/cloneInstagram--SASS/LoginWireframe.png)
