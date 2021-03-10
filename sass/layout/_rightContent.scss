@@ -1,0 +1,14 @@
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    margin-top: 12px;
+    padding: 10px 0 10px 30px;
+}
+
+.download-container-link {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,319 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.container-left {
+  background-image: url(/cloneInstagram--SASS/assets/loginPage_leftC_bgImg.png);
+  background-position-y: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+
+.section-container {
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 40px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.resgister-container {
+  padding: 20px;
+  color: #262626;
+}
+.resgister-container a {
+  color: #0095f6;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.download-container p {
+  color: #262626;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+.title {
+  background-image: url(/cloneInstagram--SASS/assets/loginPage_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 22px auto 12px;
+  height: 51px;
+  width: 175px;
+}
+
+/* .login-container {
+    width: 100%;
+    height: $mainHeight/3 * 2;
+} */
+.loginForm-container {
+  margin-bottom: 10px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 24px;
+}
+
+.input-container {
+  margin: 0 0 6px;
+  width: 100%;
+}
+
+.input {
+  padding: 9px 0 7px 8px;
+  width: 100%;
+}
+
+.divide-container {
+  margin: 10px 0px 18px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  background: #fafafa;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+  padding: 9px 0 7px 8px;
+  text-overflow: ellipsis;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  border-radius: 3px;
+}
+
+.link-download {
+  width: 50%;
+}
+.link-download img {
+  width: 100px;
+}
+
+.loginButton {
+  width: 100%;
+  background-color: rgba(0, 149, 246, 0.3);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 9px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.button-login-fb {
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #385185;
+}
+
+.fb-icon {
+  background-image: url(/cloneInstagram--SASS/assets/fbIcon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+  border-radius: 1px;
+}
+
+.link-forgetPassword {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 12px;
+  text-align: center;
+}
+.link-forgetPassword a {
+  text-decoration: none;
+  color: #00376b;
+}
+
+.link-download {
+  margin-top: 10px;
+}
+.link-download img {
+  height: 40px;
+  width: auto;
+}
+
+.link-download-AppStore {
+  margin-right: 5px;
+}
+
+.divide-container {
+  display: flex;
+}
+
+.divide-line {
+  flex-grow: 1;
+  flex-shrink: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  background-color: #dbdbdb;
+  height: 1px;
+  width: 100%;
+  position: relative;
+  top: 0.45em;
+}
+
+.divide-circle {
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  margin: 0 18px;
+  text-transform: uppercase;
+  color: #8e8e8e;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: max-content;
+  padding: 40px 40px;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  padding: 0 40px;
+  background-color: #fff;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: orange;
+}
+
+.container-left {
+  width: 50%;
+}
+
+.container-right {
+  width: 50%;
+}
+
+.container-left {
+  width: 50%;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  margin-top: 12px;
+  padding: 10px 0 10px 30px;
+}
+
+.download-container-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  grid-area: "footer";
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+.divide-container {
+    display: flex;
+}
+
+.divide-line {
+    flex-grow: 1;
+    flex-shrink: 1;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    background-color: #dbdbdb;
+    height: 1px;
+    width: 100%;
+    position: relative;
+    top: .45em;
+}
+
+.divide-circle {
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+    color: #8e8e8e;
+}

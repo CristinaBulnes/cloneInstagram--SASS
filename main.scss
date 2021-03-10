@@ -1,0 +1,17 @@
+$mainWidth : 60%;
+$mainHeight: 800px;
+$backgroundColor-main: #bb4343;
+@use 'sass/base/_reset.scss';
+@use 'sass/utilities/_variables.scss';
+@use 'sass/base/_typography.scss';
+@use 'sass/components/_loginLeftContent.scss';
+@use 'sass/components/_loginRightContent.scss';
+@use 'sass/components/_logoTitle.scss';
+@use 'sass/components/_loginForm.scss';
+@use 'sass/components/_input.scss';
+@use 'sass/components/_buttons.scss';
+@use 'sass/components/_separator.scss';
+@use 'sass/layout/_grid.scss';
+@use 'sass/layout/_leftContent.scss';
+@use 'sass/layout/_rightContent.scss';
+@use 'sass/layout/_footer.scss';

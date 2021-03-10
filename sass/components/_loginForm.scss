@@ -1,0 +1,35 @@
+$mainHeight: 800px;
+/* .login-container {
+    width: 100%;
+    height: $mainHeight/3 * 2;
+} */
+.loginForm-container {
+    margin-bottom: 10px;
+    max-width: 350px;
+    width: 100%;
+}
+.form {
+    width: 100%;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 24px;
+}
+
+.input-container {
+    margin: 0 0 6px;
+    width: 100%;
+}
+
+.input {
+    padding: 9px 0 7px 8px;
+    width: 100%;
+}
+
+.divide-container {
+    margin: 10px 0px 18px;
+}
